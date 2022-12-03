@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Registration form</title>
+  </head>
+
+  <!-- raw html Login Registration form  -->
+  <body>
+    <header style="width: 700px; background-color: #ddd; margin: 0 auto">
+      <h2 style="text-align: center; padding-top: 20px">
+        Login Registration Form
+      </h2>
+      <nav style="padding:30px 0px" >
+        <ul style="list-style-type: none; display: flex; justify-content: center">
+          <li style="margin-right: 20px"><a href="">Sign Up</a></li>
+          <li><a href="">Login</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main style="width: 700px; background-color: #ddd; margin: 0 auto">
+      <h2 style="text-align: center; color: rgb(79, 79, 201); margin-top: 10px;">Registration Form</h2>
+
+      <!-- form started -->
+      <form action="" style="padding: 20px;">
+        <label for="firstName">First Name: 
+          <input style="width: 70%;border: 1px solid grey;margin:20px 0px ; padding: 10px 20px; border-radius: 10px;" type="text" placeholder="Your first name">
+        </label><br>
+
+        <label for="laststName">Last Name: 
+          <input style="width: 70%;border: 1px solid grey;margin:20px 0px ; padding: 10px 20px; border-radius: 10px;" type="text" placeholder="Your last name">
+        </label><br>
+
+        <label for="Age"><span style="margin-right: 40px;">Age:</span> 
+          <input style="width: 70%;border: 1px solid grey;margin:20px 0px ; padding: 10px 20px; border-radius: 10px;" type="number" min="18" max="50" placeholder="Your Age">
+        </label><br>
+
+        <label for="email"><span style="margin-right: 30px;">Email:</span> 
+          <input style="width: 70%;border: 1px solid grey;margin:20px 0px ; padding: 10px 20px; border-radius: 10px;" type="email" placeholder="your email">
+        </label><br>
+
+        <label for="password"><span style="margin-right: 10px;">Password:</span> 
+          <input style="width: 70%;border: 1px solid grey;margin:20px 0px ; padding: 10px 20px; border-radius: 10px;" type="password" placeholder="password">
+        </label><br>
+
+        <label for="password"><span>Retype password:</span> 
+          <input style="width: 64%;border: 1px solid grey;margin:20px 0px ; padding: 10px 20px; border-radius: 10px;" type="password" placeholder="Retype password">
+        </label><br>
+
+        <label for="gendar"><span style="font-size: 20px; margin-right: 15px;">Gendar:</span>
+          <input style="margin-right: 7px;" type="radio" name="gendar" id="">Male
+          <input style="margin-right: 7px;" type="radio" name="gendar" id="">FeMale
+          <input style="margin-right: 7px;" type="radio" name="gendar" id="">Other
+        </label><br>
+
+        <!--using check box  -->
+        <p style="font-size: 20px; margin: 20px 0px;">What is your hobby :</p>
+        <input type="checkbox" id="gamming" name="gamming" value="gamming">
+        <label for="gamming"> I love gamming</label><br><br>
+        <input type="checkbox" id="swimming" name="swimming" value="swimming">
+        <label for="swimming"> I love swimming</label><br><br>
+        <input type="checkbox" id="driving" name="driving" value="driving">
+        <label for="driving"> I love driving</label><br><br>
+        <input type="checkbox" id="coding" name="coding" value="coding">
+        <label for="coding"> I love coding</label><br>
+
+
+        <div style="width: 70%;">
+          <h3 style=" margin: 20px;">What is on your mind? </h3>
+          <textarea style="padding: 10px;" name="comment" id="comment" cols="70" rows="20">
+          </textarea>
+        </div>
+
+        <button type="submit" style="padding: 10px 30px; width: 100%; color: aqua;">Sign Up</button>
+
+      </form>
+
+      <h3>Already have an account?</h3>
+      <nav>
+        <ul>
+          <li style="list-style-type: none;"><a href="/login">Login</a></li>
+        </ul>
+      </nav>
+    </main>
+    <footer></footer>
+  </body>
+</html>
